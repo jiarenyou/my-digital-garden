@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "blog.oteneto.xyz",
+    baseUrl: "https://blog.oteneto.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -88,6 +88,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
+      // Plugin.CNAME(), // 暂时禁用CNAME插件
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
