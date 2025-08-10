@@ -1,9 +1,8 @@
-# Quartz v4
+# JRY's digital garden
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+> "[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important." — Richard Hamming
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
-Quartz v4 features a from-the-ground rewrite focusing on end-user extensibility and ease-of-use.
+这是我的个人数字花园，用于记录和分享我的学习笔记、项目和想法。基于 [Quartz v4](https://quartz.jzhao.xyz/) 构建，Quartz是一套帮助你免费发布数字花园和笔记的工具。
 
 🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
 
