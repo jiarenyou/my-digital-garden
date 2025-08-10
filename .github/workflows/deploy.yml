@@ -24,7 +24,7 @@ jobs:
       - name: Checkout Content Repo
         uses: actions/checkout@v4
         with:
-          repository: jiarenyou/JRY-Blog
+          repository: jiarenyou/my-ai-notes
           token: '${{ secrets.ACCESS_TOKEN }}'
           path: content
       - name: Clean up content directory
