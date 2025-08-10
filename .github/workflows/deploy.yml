@@ -24,7 +24,7 @@ jobs:
       - name: Checkout Content Repo
         uses: actions/checkout@v4
         with:
-          repository: jiarenyou/my-digital-garden
+          repository: jiarenyou/JRY-digital-garden
           token: '${{ secrets.ACCESS_TOKEN }}'
           path: content
       - name: Clean up content directory
