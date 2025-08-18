@@ -18,11 +18,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout Site Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
       - name: Checkout Content Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: jiarenyou/JRY-digital-garden
           token: '${{ secrets.ACCESS_TOKEN }}'
